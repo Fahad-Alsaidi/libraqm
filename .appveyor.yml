@@ -11,6 +11,7 @@ build_script:
   - set CC=./cccl
   - set CXX=./cccl
   - bash -c "./autogen.sh"
+  - bash -c "cat configure"
   - bash -c "./configure"
   - bash -c "make"
 
